@@ -2,14 +2,18 @@
   "name": "clipflux",
   "version": "1.0.0",
   "description": "a video sharing platform with evoking the fast-moving nature of online video and digital trends.",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
   "author": "Yuvaraj R",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
