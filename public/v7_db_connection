@@ -73,7 +73,7 @@ The connection is managed in Node.js using the `mongoose` library.
     import mongoose from "mongoose";
     import { DB_NAME } from "../constants.js";
 
-    const connectDB = async () => {
+    const connectDB = async () =>  
         try {
             const connectionInstance = await mongoose.connect(`${process.env.MONGODB_URI}/${DB_NAME}`);
             console.log(`\n MongoDB connected !! DB HOST: ${connectionInstance.connection.host}`);
@@ -86,6 +86,9 @@ The connection is managed in Node.js using the `mongoose` library.
     export default connectDB;
     ```
     *   **Key points in this snippet:**
+
+    - DB is in another continent ! thats why .... to handle delay ....contd.
+
         *   It uses `async/await` to handle the asynchronous nature of the database connection.
         *   It is wrapped in a `try...catch` block to handle errors gracefully.
         *   If the connection fails, it logs the error and terminates the application process.
