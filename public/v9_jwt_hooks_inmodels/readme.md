@@ -1,5 +1,5 @@
 # User and Video Model with Hooks and JWT  
-### Notes from Chai aur Code – Nov 10, 2023
+### Notes  – Nov 10, 2023
 
 ## Overview
 
