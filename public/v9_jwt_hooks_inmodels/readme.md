@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 # User and Video Model with Hooks, JWT, and Advanced Features  
 ### Notes from Chai aur Code – Nov 10, 2023 (Consolidated)
+=======
+# User and Video Model with Hooks and JWT  
+### Notes  – Nov 10, 2023
+>>>>>>> 53913d92419831fd50219d66fcbe40078b08e938
 
 ## Overview
 
