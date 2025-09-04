@@ -18,7 +18,8 @@ export {asyncHandler}
 //     }
 //     catch(error){
 //         res.status(err.code || 500).json({
-//             success: false,message : error.message
+//             success: false,
+//             message : error.message
 //         })
 //     }
 // }

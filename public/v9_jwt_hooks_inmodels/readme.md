@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 # User and Video Model with Hooks, JWT, and Advanced Features  
-### Notes from Chai aur Code – Nov 10, 2023 (Consolidated)
+### Notes  – Nov 10, 2023 (Consolidated)
 
 # User and Video Model with Hooks and JWT  
 ### Notes  – Nov 10, 2023
@@ -199,6 +199,7 @@ module.exports = Video;
 
 #### Example Pre-save Hook
 
+arrow func is not used inside pre because arr fun do not have ```this``` access to access like ```this.password```
 ``````js
 userSchema.pre("save", async function(next) {
   if (!this.isModified("password")) return next();
