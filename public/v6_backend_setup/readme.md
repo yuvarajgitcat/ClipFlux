@@ -1,7 +1,5 @@
 # Professional Backend Project Setup — Notes
 
-_Based on: [How to setup a professional backend project](https://youtu.be/9B4CvtzXRpc?si=RL0xnPcgRQGGMpNL), Chai aur Code_
-
 ---
 
 ## Table of Contents
